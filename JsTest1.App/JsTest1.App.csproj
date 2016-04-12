@@ -80,6 +80,10 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="scripts\app.js" />
+    <Content Include="scripts\components\heroDetail.html" />
+    <Content Include="scripts\components\heroDetail.js" />
+    <Content Include="scripts\components\myComponent.html" />
+    <Content Include="scripts\components\myComponent.js" />
     <Content Include="scripts\tests\simple-test.js" />
     <Content Include="scripts\_reference.js" />
     <Content Include="Web.config" />

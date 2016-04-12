@@ -1,5 +1,5 @@
 ﻿/// <reference path="_reference.js" />
-
+'use strict';
 var app = angular.module("app", [])
     .service("simpleService", [
         function() {
@@ -14,13 +14,19 @@ var app = angular.module("app", [])
         "$scope", "simpleService", function($scope, simpleService) {
             var self = this;
 
-            self.currentTime = new Date();
             self.numberA = 0;
             self.numberB = 0;
             self.numberC = 0;
 
+            self.hero = {
+                name: 'Spawn'
+            };
+            self.something = new Date();
+            self.myTime = new Date();
+
             self.getCurrentTime = function() {
-                self.currentTime = new Date();
+                self.myTime = new Date();
+                self.something = new Date();
             };
 
             self.add = function() {

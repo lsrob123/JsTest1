@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "angular": "^1.5.3",
     "angular-mocks": "^1.5.3",
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.3.0",
